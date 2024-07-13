@@ -1,4 +1,4 @@
-import Icon from '../Icon/icon';
+import Icon from 'src/components/Icon/icon.jsx';
 import './card.css';
 
 function card({ gameEnd , player, onPlay, index}){
