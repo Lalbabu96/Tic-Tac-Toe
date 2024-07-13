@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Card from '../Card/card';
-import "./grid.css";
-import isWinner from "../../helpers/checkWinner";
+import Card from 'components/Card/card';
+import "Grid/grid.css";
+import isWinner from "src/helpers/checkWinner";
 
 function Grid({ numberOfCard }){
     const [board , setBoard] = useState(Array(numberOfCard).fill(""));
